@@ -1,0 +1,22 @@
+[
+    {
+        "id_cliente": 101,
+        "mensagem_original": "O produto chegou amassado e a caixa estava aberta. Quero meu dinheiro de volta!",
+        "analise_ia": "NEGATIVO | Reembolso"
+    },
+    {
+        "id_cliente": 102,
+        "mensagem_original": "Muito obrigado pelo atendimento, a entrega foi super rápida e o produto é ótimo.",
+        "analise_ia": "POSITIVO | Elogio"
+    },
+    {
+        "id_cliente": 103,
+        "mensagem_original": "Gostaria de saber qual o horário de funcionamento da loja física de São Paulo?",
+        "analise_ia": "NEUTRO | Horário de funcionamento"
+    },
+    {
+        "id_cliente": 104,
+        "mensagem_original": "Não consigo fazer login na minha conta, fica dando erro 500.",
+        "analise_ia": "NEGATIVO | Login"
+    }
+]
