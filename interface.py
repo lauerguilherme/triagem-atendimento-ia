@@ -88,7 +88,6 @@ with aba2:
                     
                     progresso.progress((idx + 1) / total_linhas)
                 
-                # Adiciona o resultado ao DataFrame
                 df["Análise da IA"] = resultados
                 
                 status_texto.text("Processamento concluído com sucesso!")
@@ -97,7 +96,6 @@ with aba2:
                 st.write("### Resultado da Triagem:")
                 st.dataframe(df)
                 
-                # Exportar para Excel em memória
                 buffer_excel = io.BytesIO()
                 with pd.ExcelWriter(buffer_excel, engine="openpyxl") as writer:
                     df.to_excel(writer, index=False, sheet_name="Triagem")
