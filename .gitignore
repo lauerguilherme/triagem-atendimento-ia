@@ -1,0 +1,9 @@
+# Arquivos de dados e relatórios gerados
+relatorio_triagem.json
+*.xlsx
+*.csv
+
+# Ambientes virtuais e arquivos temporários do Python
+__pycache__/
+*.pyc
+.env
